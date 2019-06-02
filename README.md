@@ -1,2 +1,2 @@
 # Angular-practice
-just spend some time with Angular 7
+just spend some time in practice with Angular 7 
