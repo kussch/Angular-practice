@@ -1,0 +1,18 @@
+<div class="table table-hover">
+  <thead>
+    <th>Title</th>
+    <th>Authors</th>
+    <th>Group</th>
+    <th>Price</th>
+    <th>Delete</th>
+  </thead>
+  <tbody>
+    <tr *ngFor='let book of list'>
+      <td (click)="onEdit(book)">{{ book.title }}</td>
+      <td (click)="onEdit(book)">{{ book.author }}</td>
+      <td (click)="onEdit(book)">{{ book.group }}</td>
+      <td (click)="onEdit(book)">{{ book.price }}</td>
+      <td><a class='btn text-danger' (click)='onDelete(book.id)'><i class="fa fa-trash"></i></a></td>
+    </tr>
+  </tbody>
+</div>
